@@ -1,14 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Studi</title>
+  <meta charset="UTF-8">
+  <title>Mercadona - Catalogue de produits</title>
+  <style>
+    /* Styles CSS pour la mise en page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .product {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .product img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+
+    .product .details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product .details h3 {
+      margin: 0;
+    }
+
+    .product .details p {
+      margin: 5px 0;
+    }
+
+    .category {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1> Hello </h1>
+  <h1>Mercadona - Catalogue de produits</h1>
+
+  <div class="category">Fruits</div>
+  <div class="product">
+    <img src="chemin/vers/image1.jpg" alt="Fruit 1">
+    <div class="details">
+      <h3>Fruit 1</h3>
+      <p>Description du fruit 1.</p>
+      <p>Prix : $10</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="chemin/vers/image2.jpg" alt="Fruit 2">
+    <div class="details">
+      <h3>Fruit 2</h3>
+      <p>Description du fruit 2.</p>
+      <p>Prix : $12</p>
+    </div>
+  </div>
+
+  <div class="category">Légumes</div>
+  <div class="product">
+    <img src="chemin/vers/image3.jpg" alt="Légume 1">
+    <div class="details">
+      <h3>Légume 1</h3>
+      <p>Description du légume 1.</p>
+      <p>Prix : $8</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="chemin/vers/image4.jpg" alt="Légume 2">
+    <div class="details">
+      <h3>Légume 2</h3>
+      <p>Description du légume 2.</p>
+      <p>Prix : $6</p>
+    </div>
+  </div>
+
+  <!-- Ajoutez d'autres catégories et produits selon vos besoins -->
+
 </body>
 </html>
